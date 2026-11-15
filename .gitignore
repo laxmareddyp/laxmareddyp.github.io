@@ -1,0 +1,3 @@
+# Local preview copy of the profile data. The live site reads it from the
+# profile repository instead.
+data/

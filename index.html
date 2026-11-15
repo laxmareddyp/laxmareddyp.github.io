@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laxma Reddy Patlolla</title>
+    <meta name="description" content="Laxma Reddy Patlolla. Model ports, weight converters and keras.io guides for KerasHub.">
+    <!--
+      Strict policy: only this site's own scripts, styles and images, and data
+      from the profile repository. No inline scripts or styles anywhere.
+      TODO(security): frame-ancestors and X-Frame-Options cannot be set from a
+      meta tag and GitHub Pages does not allow custom response headers, so
+      clickjacking protection is not enforced. The site has no forms, no login
+      and no state-changing actions, so there is nothing to click-hijack.
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self' https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#models">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top">Laxma Reddy Patlolla</a>
+      <nav aria-label="Sections">
+        <a href="#models">Models</a>
+        <a href="#automation">Automation</a>
+        <a href="#guides">Guides</a>
+        <a href="#contributions">Contributions</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">AI engineer · KerasHub</p>
+          <h1>I port frontier models to <span class="accent">KerasHub</span></h1>
+          <p class="lede">Model ports, weight converters and keras.io guides.</p>
+          <p class="hero-actions">
+            <a class="button primary" href="#models">See the models</a>
+            <a class="button" href="https://github.com/laxmareddyp">GitHub profile</a>
+          </p>
+          <dl class="stats" id="stats" aria-label="Totals"></dl>
+        </div>
+        <svg class="hero-art" viewBox="0 0 360 220" role="img" aria-label="Weights moving from Hugging Face to KerasHub">
+          <circle cx="70" cy="100" r="54" fill="#FFD21E"/>
+          <g fill="none" stroke="#14182B" stroke-width="5" stroke-linecap="round">
+            <path d="M51 87 v8 M89 87 v8"/>
+            <path d="M47 112 q23 23 46 0"/>
+          </g>
+          <path class="dash" d="M140 100 H214" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+          <g fill="#FFB454">
+            <rect class="weight" x="132" y="70" width="12" height="12" rx="3"/>
+            <rect class="weight b" x="132" y="94" width="12" height="12" rx="3"/>
+            <rect class="weight c" x="132" y="118" width="12" height="12" rx="3"/>
+          </g>
+          <rect x="232" y="46" width="108" height="108" rx="22" fill="#D00000"/>
+          <text x="286" y="128" font-size="78" font-weight="800" fill="#FFFFFF" text-anchor="middle">K</text>
+          <g font-size="14" font-weight="600" fill="#FFFFFF" opacity="0.7" text-anchor="middle">
+            <text x="70" y="190">Hugging Face</text>
+            <text x="286" y="190">KerasHub</text>
+          </g>
+        </svg>
+      </section>
+
+      <p class="status" id="status" role="status" hidden></p>
+      <noscript>
+        <p class="status">This page needs JavaScript to load its content. Everything here is also on the <a href="https://github.com/laxmareddyp">GitHub profile</a>.</p>
+      </noscript>
+
+      <section id="models" aria-labelledby="models-title">
+        <h2 id="models-title">Models</h2>
+        <p class="section-lede">Architectures, weights and converters added to the Keras ecosystem. Each card opens its pull request.</p>
+        <div class="chips" id="model-filters" role="group" aria-label="Filter models"></div>
+        <div class="grid" id="model-grid"></div>
+      </section>
+
+      <section id="automation" aria-labelledby="automation-title">
+        <h2 id="automation-title">Automation and reviews</h2>
+        <div class="grid" id="automation-grid"></div>
+      </section>
+
+      <section id="guides" aria-labelledby="guides-title">
+        <h2 id="guides-title">Guides on keras.io</h2>
+        <div class="grid" id="guide-grid"></div>
+      </section>
+
+      <section id="contributions" aria-labelledby="contributions-title">
+        <h2 id="contributions-title">All merged pull requests and reviews</h2>
+        <p class="section-lede" id="contributions-lede"></p>
+        <div class="bars" id="contribution-bars"></div>
+      </section>
+
+      <section id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About</h2>
+        <p class="section-lede">AI engineer working on KerasHub: model ports, weight converters and guides.</p>
+        <ul class="toolbox" id="toolbox" aria-label="Toolbox"></ul>
+        <div class="grid" id="link-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Data refreshes weekly from the <a href="https://github.com/laxmareddyp/laxmareddyp">profile repository</a>.</p>
+    </footer>
+  </body>
+</html>

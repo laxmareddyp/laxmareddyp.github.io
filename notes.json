@@ -1,0 +1,15 @@
+{
+  "embeddinggemma-2": "A multimodal embedding model for text, images, video and audio, built on the Gemma 4 stack. Converted outputs are checked against the Hugging Face reference.",
+  "qwen-3-5-moe": "Extends the dense Qwen 3.5 architecture with a sparse Mixture-of-Experts design, with image and video converters and a Hugging Face weight converter.",
+  "qwen-3-5": "A hybrid design that alternates three Gated DeltaNet linear-attention layers with one full attention layer, and takes vision and text in one backbone.",
+  "gemma-3n": "Completes the Gemma 3n port with KV sharing, causal masking and numerical parity fixes. For text, vision and audio inputs, predicted tokens match Hugging Face at every position. Builds on earlier work by harshaljanjani.",
+  "t5gemma-2": "An encoder-decoder built on the Gemma 3 architecture, with tied embeddings, merged decoder attention and a SigLIP vision encoder.",
+  "text-embedder": "A new TextEmbedder task for fixed-size sentence embeddings, with a BERT implementation that loads Sentence-Transformers models such as all-MiniLM-L6-v2.",
+  "embeddinggemma": "Extends the Gemma 3 backbone to support the EmbeddingGemma text embedding model. Builds on earlier work by buildwithsuhana.",
+  "gpt-oss": "Model files generated with the Model Porter script, with outputs compared against the reference model.",
+  "functiongemma": "FunctionGemma checkpoints added to KerasHub for native function calling.",
+  "gemma-3-converter": "A conversion script that ports Gemma 3 weights directly from Hugging Face.",
+  "basnet": "The BASNet image segmentation model, added to KerasHub.",
+  "mask-rcnn": "Mask R-CNN ported to Keras 3 in KerasCV.",
+  "model-porter": "A script that generates KerasHub model files for text-only decoder LLMs from their Hugging Face implementation."
+}
